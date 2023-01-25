@@ -5,18 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BannerComponent } from './components/banner/banner.component';
-import { RrssComponent } from './components/rrss/rrss.component';
-import { LogoApComponent } from './components/logo-ap/logo-ap.component';
 import { SobremiComponent } from './components/sobremi/sobremi.component';
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BannerComponent,
-    RrssComponent,
-    LogoApComponent,
-    SobremiComponent
+    SobremiComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
