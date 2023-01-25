@@ -1,3 +1,7 @@
 img {
-    width: 50px;
+    width: 15%;
+}
+div {
+    display: inline;
+    position: relative
 }

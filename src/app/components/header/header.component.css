@@ -1,4 +1,6 @@
-
+.header {
+ background-color: #000000;
+}
 
 app-rrss {
 float: right;
