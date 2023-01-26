@@ -8,6 +8,9 @@ import { BannerComponent } from './components/banner/banner.component';
 import { SobremiComponent } from './components/sobremi/sobremi.component';
 import { NavComponent } from './components/nav/nav.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EmpleoComponent } from './components/empleo/empleo.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { EstudioComponent } from './components/estudio/estudio.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
     BannerComponent,
     SobremiComponent,
     NavComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    EmpleoComponent,
+    EducacionComponent,
+    EstudioComponent
   ],
   imports: [
     BrowserModule,
