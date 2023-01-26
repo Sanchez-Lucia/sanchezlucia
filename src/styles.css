@@ -3,6 +3,9 @@
 @import "node_modules/bootstrap-icons/font/bootstrap-icons.css";
 @import "node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-* {
+body {
     color: #f4f4f4;
+    background-color: #486480;
 }
+
+
