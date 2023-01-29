@@ -4,20 +4,28 @@ img {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    width: 200px;
 }
 
-.contenedor {
-    padding: 5%;
-}
-
-h1, #titulo {
+.col-4{
     text-align: center;
+    position: block;
+    z-index: 2;
+    margin-top: -100px;
 }
 
-/* #contenedor-fotoPerfil {
-    display: flex;
-    justify-content: center;
+.nombre {
+    margin-top: 15px;
 }
-.position-relative {
-    top: -100px
-} */
+
+#titulo {
+    font-style: italic;
+    font-weight: 300;
+}
+h1, p {
+    margin-bottom: 0;
+}
+
+.col-8 {
+    margin-top: 50px;
+}

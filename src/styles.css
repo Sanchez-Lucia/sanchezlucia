@@ -2,10 +2,54 @@
 @import "node_modules/normalize.css/normalize.css";
 @import "node_modules/bootstrap-icons/font/bootstrap-icons.css";
 @import "node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+
+/* Características generales */
+:root {
+    --fondo: #a7a7a7;
+    --letra-ppal: #282828;
+    --letra-sria: #181f55;
+}
 
 body {
-    color: #f4f4f4;
-    background-color: #486480;
+    background-color: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+    color: var(--letra-ppal);
+    padding: 0 30px;
 }
+.fondo-oscuro {
+    background-color: var(--fondo);
+    color: var(--letra-ppal);
+}
+
+a {
+    color: var(--letra-ppal);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--letra-sria);
+    text-decoration: none;   
+}
+
+.contenedor {
+    padding: 0 20px;
+}
+
+/* Fuentes */
+h1 {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+
 
 

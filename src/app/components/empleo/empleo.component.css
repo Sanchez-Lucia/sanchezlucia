@@ -1,0 +1,21 @@
+
+
+article {
+    margin-top: 25px;
+}
+
+img {
+    width: 175px;
+}
+
+.row {
+   align-items: center;
+}
+
+.col-3 {
+    text-align: center;
+}
+
+.col-9 {
+    padding-right: 150px;
+}
