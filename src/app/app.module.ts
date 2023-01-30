@@ -11,6 +11,10 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
 import { EmpleoComponent } from './components/empleo/empleo.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { EstudioComponent } from './components/estudio/estudio.component';
+import { HabilidadesComponent } from './components/habilidades/habilidades.component';
+import { HabilidadComponent } from './components/habilidad/habilidad.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+
 
 @NgModule({
   declarations: [
@@ -22,11 +26,14 @@ import { EstudioComponent } from './components/estudio/estudio.component';
     ExperienciaComponent,
     EmpleoComponent,
     EducacionComponent,
-    EstudioComponent
+    EstudioComponent,
+    HabilidadesComponent,
+    HabilidadComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
