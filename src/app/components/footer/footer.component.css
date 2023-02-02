@@ -1,0 +1,10 @@
+.row {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
