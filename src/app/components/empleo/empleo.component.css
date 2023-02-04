@@ -1,21 +1,17 @@
-
-
-article {
-    margin-top: 25px;
-}
-
 img {
-    width: 175px;
+    width: 90%;
+    max-width: 150px;
+    min-width: 125px;
 }
 
 .row {
-   align-items: center;
+    align-items: center;
+    margin: 40px 0 0 0;
 }
 
-.col-3 {
-    text-align: center;
+@media screen and (max-width: 576px) {
+    div:nth-child(2) {
+    margin-top: 20px;
 }
 
-.col-9 {
-    padding-right: 150px;
 }

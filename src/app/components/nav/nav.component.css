@@ -2,13 +2,15 @@ img {
     height: 50px;
 }
 
-.col {
-    display: flex;
-    align-items: center;
-}
-
 nav {
     padding: 10px 0;
+    margin: 0;
+
+}
+
+div {
+    display: flex;
+    align-items: center;
 }
 
 i {
@@ -25,4 +27,10 @@ p {
     font-weight: 600;
     line-height: 1.4;
     margin: 0 10px;
+}
+
+@media screen and (max-width: 650px) {
+    p {
+        display: none;
+    }
 }
