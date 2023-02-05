@@ -12,7 +12,6 @@ import { EmpleoComponent } from './components/empleo/empleo.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { EstudioComponent } from './components/estudio/estudio.component';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
-import { HabilidadComponent } from './components/habilidad/habilidad.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
@@ -29,13 +28,33 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     EducacionComponent,
     EstudioComponent,
     HabilidadesComponent,
-    HabilidadComponent,
     ProyectosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({
+      "radius": 60,
+      "space": -10,
+      "outerStrokeGradient": true,
+      "outerStrokeWidth": 10,
+      "outerStrokeColor": "#4882c2",
+      "imageSrc"="../../../assets/img/html.png",
+      "outerStrokeGradientStopColor": "#53a9ff",
+      "innerStrokeColor": "#e7e8ea",
+      "innerStrokeWidth": 10,
+      "title": "UI",
+      "imageHeight": 20,
+      "imageWidth": 27,
+      "animateTitle": false,
+      "animationDuration": 1000,
+      "showTitle": false,
+      "showUnits": false,
+      "showImage": true,
+      "showBackground": false,
+      "responsive": true,
+      "startFromZero": false,
+      "lazy": true})
   ],
   providers: [],
   bootstrap: [AppComponent]
